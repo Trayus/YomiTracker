@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+
+        <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/new_battle"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/player1"
+                android:textColor="#ffffff"
+                android:textSize="26dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="67dp"
+            android:src="@drawable/ic_launcher" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|right"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/new_battle"
+                android:textColor="#aaaaaa"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/player2"
+                android:textColor="#000000"
+                android:textSize="26dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    	android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+
+        <Button
+            android:id="@+id/argagargbutton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Argagarg"
+            android:textColor="#00aacc"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/balbasbetabutton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Bal-Bas-Beta"
+            android:textColor="#eeaa00"
+            android:textSize="13dp" />
+
+        <Button
+            android:id="@+id/degreybutton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="DeGrey"
+            android:textColor="#ee1155"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/geigerbutton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Geiger"
+            android:textColor="#ffcc33"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/gloriabutton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Gloria"
+            android:textColor="#ee8888"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    	android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+        
+         <Button
+            android:id="@+id/gravebutton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Grave"
+            android:textColor="#0000ff"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/gwenbutton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Gwen"
+            android:textColor="#550033"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/jainabutton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Jaina"
+            android:textColor="#ff0000"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/lumbutton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Lum"
+            android:textColor="#cc4422"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/menelkerbutton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Menelker"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    	android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/midoributton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Midori"
+            android:textColor="#00aa00"
+            android:textSize="15dp" />
+
+
+         <Button
+             android:id="@+id/onimarubutton"
+             android:layout_width="100dp"
+             android:layout_height="wrap_content"
+             android:text="Onimaru"
+             android:textColor="#aa4400"
+             android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/persephonebutton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Persephone"
+            android:textColor="#000000"
+            android:textSize="13dp" />
+
+        <Button
+            android:id="@+id/quincebutton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Quince"
+            android:textColor="#5555ff"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/rookbutton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Rook"
+            android:textColor="#666666"
+            android:textSize="15dp" />
+    </LinearLayout>    
+        
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    	android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/setsukibutton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Setsuki"
+            android:textColor="#aa4422"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/troqbutton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Troq"
+            android:textColor="#442211"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/valeriebutton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Valerie"
+            android:textColor="#ffbb44"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/vendettabutton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Vendetta"
+            android:textColor="#003300"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/zanebutton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Zane"
+            android:textColor="#ff00ff"
+            android:textSize="15dp" />
+    </LinearLayout>    
+        
+</LinearLayout>

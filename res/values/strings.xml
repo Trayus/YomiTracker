@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Welcome to Yomi Tracker.</string>
+    <string name="app_name">Yomi Life Tracker</string>
+    <string name="new_battle">Choose Your Character</string>
+    <string name="player1">     Player 1     </string>
+    <string name="player2">     Player 2     </string>
+
+</resources>

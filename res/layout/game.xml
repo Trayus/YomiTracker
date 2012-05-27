@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/p1P10"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="+5"
+            android:textColor="#000000"
+            android:textSize="12dp"/>
+
+        <Button
+            android:id="@+id/p1P1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="+1"
+            android:textColor="#000000"
+            android:textSize="12dp" />
+
+        <EditText
+            android:id="@+id/p1life"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned" 
+            android:textSize="30dp"
+            android:clickable="false" 
+        	android:cursorVisible="false" 
+        	android:focusable="false" 
+        	android:focusableInTouchMode="false">
+        </EditText>
+
+        <Button
+            android:id="@+id/p1M1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="-1"
+            android:textColor="#000000"
+            android:textSize="12dp"/>
+
+        <Button
+            android:id="@+id/p1M10"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="-5"
+            android:textColor="#000000"
+            android:textSize="12dp" />
+    </LinearLayout>
+	<ImageView
+	    android:id="@+id/p1image"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/balbasbeta" />
+        
+        
+        
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_launcher" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/newgame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Game"
+            android:textColor="#000000"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+	
+	<ImageView
+	    android:id="@+id/p2image"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/balbasbeta" />
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|right"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/p2P10"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="+5"
+            android:textColor="#000000"
+            android:textSize="12dp"/>
+
+        <Button
+            android:id="@+id/p2P1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="+1"
+            android:textColor="#000000"
+            android:textSize="12dp" />
+
+        <EditText
+            android:id="@+id/p2life"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned" 
+            android:textSize="30dp"
+            android:clickable="false" 
+        	android:cursorVisible="false" 
+        	android:focusable="false" 
+        	android:focusableInTouchMode="false">
+        </EditText>
+
+        <Button
+            android:id="@+id/p2M1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="-1"
+            android:textColor="#000000"
+            android:textSize="12dp"/>
+
+        <Button
+            android:id="@+id/p2M10"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="-5"
+            android:textColor="#000000"
+            android:textSize="12dp" />
+    </LinearLayout>    
+        
+</LinearLayout>
